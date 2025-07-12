@@ -1,0 +1,52 @@
+1c1
+< # Nmap 7.95 scan initiated Sat Jul 12 13:30:01 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-12_13-30.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Sat Jul 12 13:52:00 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-12_13-51.txt 192.168.1.0/24
+3c3
+< Host is up (0.011s latency).
+---
+> Host is up (0.0051s latency).
+11c11
+< Host is up (0.012s latency).
+---
+> Host is up (0.0033s latency).
+17c17
+< Host is up (0.011s latency).
+---
+> Host is up (0.0044s latency).
+24c24
+< Host is up (0.13s latency).
+---
+> Host is up (0.011s latency).
+29,40c29,33
+< Nmap scan report for Faiz.bbrouter (192.168.1.16)
+< Host is up (0.0085s latency).
+< Not shown: 93 closed tcp ports (reset)
+< PORT     STATE    SERVICE
+< 21/tcp   filtered ftp
+< 113/tcp  filtered ident
+< 135/tcp  filtered msrpc
+< 139/tcp  filtered netbios-ssn
+< 554/tcp  filtered rtsp
+< 995/tcp  filtered pop3s
+< 5900/tcp filtered vnc
+< MAC Address: 46:F1:23:3C:0E:5A (Unknown)
+---
+> Nmap scan report for 192.168.1.7
+> Host is up (0.011s latency).
+> All 100 scanned ports on 192.168.1.7 are in ignored states.
+> Not shown: 100 closed tcp ports (reset)
+> MAC Address: 1E:58:EB:D3:85:DF (Unknown)
+43,46c36,38
+< Host is up (0.000012s latency).
+< Not shown: 99 closed tcp ports (reset)
+< PORT     STATE SERVICE
+< 5000/tcp open  upnp
+---
+> Host is up (0.0000060s latency).
+> All 100 scanned ports on kali.bbrouter (192.168.1.8) are in ignored states.
+> Not shown: 100 closed tcp ports (reset)
+48c40
+< # Nmap done at Sat Jul 12 13:31:44 2025 -- 256 IP addresses (6 hosts up) scanned in 102.72 seconds
+---
+> # Nmap done at Sat Jul 12 13:53:51 2025 -- 256 IP addresses (6 hosts up) scanned in 111.70 seconds

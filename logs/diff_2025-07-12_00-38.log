@@ -1,0 +1,36 @@
+1c1
+< # Nmap 7.95 scan initiated Sat Jul 12 00:30:01 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-12_00-30.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Sat Jul 12 00:38:54 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-12_00-38.txt 192.168.1.0/24
+3c3
+< Host is up (0.0050s latency).
+---
+> Host is up (0.0071s latency).
+11c11
+< Host is up (0.0052s latency).
+---
+> Host is up (0.012s latency).
+17c17
+< Host is up (0.0044s latency).
+---
+> Host is up (0.011s latency).
+23,25c23,25
+< Nmap scan report for V2153.bbrouter (192.168.1.9)
+< Host is up (0.14s latency).
+< All 100 scanned ports on V2153.bbrouter (192.168.1.9) are in ignored states.
+---
+> Nmap scan report for Gopal-s-M31.bbrouter (192.168.1.15)
+> Host is up (0.12s latency).
+> All 100 scanned ports on Gopal-s-M31.bbrouter (192.168.1.15) are in ignored states.
+27c27
+< MAC Address: A6:A1:DC:6F:05:DA (Unknown)
+---
+> MAC Address: F6:97:2B:13:7B:2F (Unknown)
+30c30
+< Host is up (0.0000070s latency).
+---
+> Host is up (0.0000080s latency).
+35c35
+< # Nmap done at Sat Jul 12 00:32:07 2025 -- 256 IP addresses (5 hosts up) scanned in 126.26 seconds
+---
+> # Nmap done at Sat Jul 12 00:39:00 2025 -- 256 IP addresses (5 hosts up) scanned in 6.19 seconds

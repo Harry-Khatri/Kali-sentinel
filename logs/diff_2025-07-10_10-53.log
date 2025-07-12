@@ -1,0 +1,39 @@
+1c1
+< # Nmap 7.95 scan initiated Thu Jul 10 10:44:49 2025 as: /usr/lib/nmap/nmap --privileged -T4 -F -oN ./scan/scan_2025-07-10_10-44.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Thu Jul 10 10:53:39 2025 as: /usr/lib/nmap/nmap --privileged -T4 -F -oN ./scan/scan_2025-07-10_10-53.txt 192.168.1.0/24
+3c3
+< Host is up (0.014s latency).
+---
+> Host is up (0.0042s latency).
+11c11
+< Host is up (0.017s latency).
+---
+> Host is up (0.0044s latency).
+17c17
+< Host is up (0.013s latency).
+---
+> Host is up (0.0044s latency).
+23,40d22
+< Nmap scan report for 192.168.1.7
+< Host is up (0.019s latency).
+< All 100 scanned ports on 192.168.1.7 are in ignored states.
+< Not shown: 100 closed tcp ports (reset)
+< MAC Address: 1E:58:EB:D3:85:DF (Unknown)
+< 
+< Nmap scan report for 192.168.1.10
+< Host is up (0.43s latency).
+< All 100 scanned ports on 192.168.1.10 are in ignored states.
+< Not shown: 100 filtered tcp ports (no-response)
+< MAC Address: B6:19:D8:86:51:21 (Unknown)
+< 
+< Nmap scan report for 192.168.1.11
+< Host is up (0.019s latency).
+< All 100 scanned ports on 192.168.1.11 are in ignored states.
+< Not shown: 100 closed tcp ports (reset)
+< MAC Address: EC:C1:AB:56:B5:FF (Guangzhou Shiyuan Electronic Technology Company Limited)
+< 
+47c29
+< # Nmap done at Thu Jul 10 10:46:03 2025 -- 256 IP addresses (7 hosts up) scanned in 74.33 seconds
+---
+> # Nmap done at Thu Jul 10 10:53:44 2025 -- 256 IP addresses (4 hosts up) scanned in 5.13 seconds

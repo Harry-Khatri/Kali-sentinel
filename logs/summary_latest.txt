@@ -1,0 +1,16 @@
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.7
+192.168.1.8
+
+🚫 Removed Hosts:
+192.168.1.0
+192.168.1.8
+
+🔐 New Open Ports:
+> 5000/tcp open  upnp
+
+🔒 Removed Ports:
+
+====================

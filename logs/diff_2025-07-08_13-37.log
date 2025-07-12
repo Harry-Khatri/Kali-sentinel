@@ -1,0 +1,36 @@
+1c1
+< # Nmap 7.95 scan initiated Tue Jul  8 13:07:34 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-08_13-07.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Tue Jul  8 13:37:15 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-08_13-37.txt 192.168.1.0/24
+3c3
+< Host is up (0.0092s latency).
+---
+> Host is up (0.0047s latency).
+11c11
+< Host is up (0.011s latency).
+---
+> Host is up (0.0045s latency).
+17c17
+< Host is up (0.011s latency).
+---
+> Host is up (0.0049s latency).
+23,27c23,27
+< Nmap scan report for M2006C3MI-POCOC3.bbrouter (192.168.1.5)
+< Host is up (0.0087s latency).
+< All 100 scanned ports on M2006C3MI-POCOC3.bbrouter (192.168.1.5) are in ignored states.
+< Not shown: 100 closed tcp ports (reset)
+< MAC Address: 6E:50:CF:B3:BB:1D (Unknown)
+---
+> Nmap scan report for 192.168.1.6
+> Host is up (0.11s latency).
+> All 100 scanned ports on 192.168.1.6 are in ignored states.
+> Not shown: 100 filtered tcp ports (no-response)
+> MAC Address: B6:19:D8:86:51:21 (Unknown)
+30c30
+< Host is up (0.0000020s latency).
+---
+> Host is up (0.0000070s latency).
+34c34
+< # Nmap done at Tue Jul  8 13:07:43 2025 -- 256 IP addresses (5 hosts up) scanned in 9.11 seconds
+---
+> # Nmap done at Tue Jul  8 13:37:22 2025 -- 256 IP addresses (5 hosts up) scanned in 7.08 seconds

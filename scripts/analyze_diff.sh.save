@@ -1,0 +1,24 @@
+#!/bin/bash
+
+LOG_DIR="./logs"
+LATEST_DIFF=$(ls -t "$LOG_DIR"/diff_*.log 2>/dev/null | head -n1)
+
+if [[ ! -f "$LATEST_DIFF" ]]; then
+    echo "[-] No diff logs found."
+    exit 1
+fi
+
+echo "[*] Analyzing: $LATEST_DIFF"
+
+NEW_HOSTS=$(grep "^> " "$LATEST_DIFF" | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | sort -u)
+REMOVED_HOSTS=$(grep "^< " "$LATEST_DIFF" | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | sort -u)
+NEW_PORTS=$(grep "^> " "$LATEST_DIFF" | grep "open")
+REMOVED_PORTS=$(grep "^< " "$LATEST_DIFF" | gr
+
+
+
+
+
+
+
+

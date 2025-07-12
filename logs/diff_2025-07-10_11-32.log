@@ -1,0 +1,39 @@
+1c1
+< # Nmap 7.95 scan initiated Thu Jul 10 11:30:44 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-10_11-30.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Thu Jul 10 11:32:32 2025 as: /usr/lib/nmap/nmap --privileged -T4 -F -oN ./scan/scan_2025-07-10_11-32.txt 192.168.1.0/24
+3c3
+< Host is up (0.014s latency).
+---
+> Host is up (0.0057s latency).
+11c11
+< Host is up (0.0095s latency).
+---
+> Host is up (0.0044s latency).
+17c17
+< Host is up (0.010s latency).
+---
+> Host is up (0.0074s latency).
+24c24
+< Host is up (0.021s latency).
+---
+> Host is up (0.016s latency).
+29,34d28
+< Nmap scan report for V2153.bbrouter (192.168.1.9)
+< Host is up (0.018s latency).
+< All 100 scanned ports on V2153.bbrouter (192.168.1.9) are in ignored states.
+< Not shown: 100 closed tcp ports (reset)
+< MAC Address: A6:A1:DC:6F:05:DA (Unknown)
+< 
+36c30
+< Host is up (0.10s latency).
+---
+> Host is up (0.18s latency).
+42c36
+< Host is up (0.0000090s latency).
+---
+> Host is up (0.000011s latency).
+47c41
+< # Nmap done at Thu Jul 10 11:31:40 2025 -- 256 IP addresses (7 hosts up) scanned in 55.38 seconds
+---
+> # Nmap done at Thu Jul 10 11:35:08 2025 -- 256 IP addresses (6 hosts up) scanned in 156.28 seconds

@@ -1,0 +1,1 @@
+# Nmap 7.95 scan initiated Sat Jul 12 14:05:55 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-12_14-05.txt 192.168.1.0/24

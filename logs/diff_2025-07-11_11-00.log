@@ -1,0 +1,48 @@
+1c1
+< # Nmap 7.95 scan initiated Fri Jul 11 10:42:41 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-11_10-42.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Fri Jul 11 11:00:01 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-11_11-00.txt 192.168.1.0/24
+3c3
+< Host is up (0.017s latency).
+---
+> Host is up (0.0035s latency).
+11c11
+< Host is up (0.0094s latency).
+---
+> Host is up (0.0063s latency).
+17c17
+< Host is up (0.012s latency).
+---
+> Host is up (0.0067s latency).
+23,25c23,25
+< Nmap scan report for Gopal-s-M31.bbrouter (192.168.1.15)
+< Host is up (0.018s latency).
+< All 100 scanned ports on Gopal-s-M31.bbrouter (192.168.1.15) are in ignored states.
+---
+> Nmap scan report for V2153.bbrouter (192.168.1.9)
+> Host is up (0.020s latency).
+> All 100 scanned ports on V2153.bbrouter (192.168.1.9) are in ignored states.
+27c27,39
+< MAC Address: F6:97:2B:13:7B:2F (Unknown)
+---
+> MAC Address: A6:A1:DC:6F:05:DA (Unknown)
+> 
+> Nmap scan report for 192.168.1.10
+> Host is up (0.11s latency).
+> All 100 scanned ports on 192.168.1.10 are in ignored states.
+> Not shown: 100 filtered tcp ports (no-response)
+> MAC Address: B6:19:D8:86:51:21 (Unknown)
+> 
+> Nmap scan report for Faiz.bbrouter (192.168.1.16)
+> Host is up (0.024s latency).
+> All 100 scanned ports on Faiz.bbrouter (192.168.1.16) are in ignored states.
+> Not shown: 100 closed tcp ports (reset)
+> MAC Address: 46:F1:23:3C:0E:5A (Unknown)
+30c42
+< Host is up (0.000010s latency).
+---
+> Host is up (0.0000070s latency).
+35c47
+< # Nmap done at Fri Jul 11 10:42:47 2025 -- 256 IP addresses (5 hosts up) scanned in 6.66 seconds
+---
+> # Nmap done at Fri Jul 11 11:00:19 2025 -- 256 IP addresses (7 hosts up) scanned in 18.08 seconds

@@ -1,0 +1,28 @@
+1c1
+< # Nmap 7.95 scan initiated Thu Jul 10 06:30:02 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-10_06-30.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Thu Jul 10 06:50:34 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-10_06-50.txt 192.168.1.0/24
+3c3
+< Host is up (0.0075s latency).
+---
+> Host is up (0.010s latency).
+11c11
+< Host is up (0.0074s latency).
+---
+> Host is up (0.012s latency).
+17c17
+< Host is up (0.0069s latency).
+---
+> Host is up (0.010s latency).
+24c24
+< Host is up (0.18s latency).
+---
+> Host is up (0.032s latency).
+30c30
+< Host is up (0.0000080s latency).
+---
+> Host is up (0.0000070s latency).
+35c35
+< # Nmap done at Thu Jul 10 06:30:13 2025 -- 256 IP addresses (5 hosts up) scanned in 11.54 seconds
+---
+> # Nmap done at Thu Jul 10 06:50:42 2025 -- 256 IP addresses (5 hosts up) scanned in 7.96 seconds

@@ -1,0 +1,42 @@
+1c1
+< # Nmap 7.95 scan initiated Thu Jul 10 06:20:19 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-10_06-20.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Thu Jul 10 06:29:21 2025 as: /usr/lib/nmap/nmap --privileged -T4 -F -oN ./scan/scan_2025-07-10_06-29.txt 192.168.1.0/24
+3c3
+< Host is up (0.041s latency).
+---
+> Host is up (0.0069s latency).
+11c11
+< Host is up (0.059s latency).
+---
+> Host is up (0.0078s latency).
+17c17
+< Host is up (0.056s latency).
+---
+> Host is up (0.0073s latency).
+23,25c23,31
+< Nmap scan report for M2006C3MI-POCOC3.bbrouter (192.168.1.6)
+< Host is up (0.0085s latency).
+< All 100 scanned ports on M2006C3MI-POCOC3.bbrouter (192.168.1.6) are in ignored states.
+---
+> Nmap scan report for 192.168.1.7
+> Host is up (0.13s latency).
+> All 100 scanned ports on 192.168.1.7 are in ignored states.
+> Not shown: 100 filtered tcp ports (no-response)
+> MAC Address: 1E:58:EB:D3:85:DF (Unknown)
+> 
+> Nmap scan report for 192.168.1.11
+> Host is up (0.040s latency).
+> All 100 scanned ports on 192.168.1.11 are in ignored states.
+27c33
+< MAC Address: 6E:50:CF:B3:BB:1D (Unknown)
+---
+> MAC Address: EC:C1:AB:56:B5:FF (Guangzhou Shiyuan Electronic Technology Company Limited)
+30c36
+< Host is up (0.0000060s latency).
+---
+> Host is up (0.0000030s latency).
+35c41
+< # Nmap done at Thu Jul 10 06:20:26 2025 -- 256 IP addresses (5 hosts up) scanned in 7.39 seconds
+---
+> # Nmap done at Thu Jul 10 06:29:32 2025 -- 256 IP addresses (6 hosts up) scanned in 11.33 seconds

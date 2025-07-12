@@ -1,0 +1,2 @@
+# Nmap 7.95 scan initiated Mon Jul  7 01:50:10 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-07_01-50.txt 192.168.1.0/24
+# Nmap done at Mon Jul  7 01:54:25 2025 -- 256 IP addresses (0 hosts up) scanned in 255.28 seconds

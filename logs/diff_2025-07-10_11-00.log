@@ -1,0 +1,32 @@
+1c1
+< # Nmap 7.95 scan initiated Thu Jul 10 11:00:01 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-10_11-00.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Thu Jul 10 11:00:44 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-10_11-00.txt 192.168.1.0/24
+3c3
+< Host is up (0.0066s latency).
+---
+> Host is up (0.015s latency).
+11c11
+< Host is up (0.0069s latency).
+---
+> Host is up (0.017s latency).
+17c17
+< Host is up (0.0099s latency).
+---
+> Host is up (0.011s latency).
+23,28d22
+< Nmap scan report for 192.168.1.10
+< Host is up (0.86s latency).
+< All 100 scanned ports on 192.168.1.10 are in ignored states.
+< Not shown: 100 filtered tcp ports (no-response)
+< MAC Address: B6:19:D8:86:51:21 (Unknown)
+< 
+30c24
+< Host is up (0.000011s latency).
+---
+> Host is up (0.0000090s latency).
+35,36c29
+< # Nmap done at Thu Jul 10 11:00:19 2025 -- 256 IP addresses (5 hosts up) scanned in 17.83 seconds
+<  5.44 seconds
+---
+> # Nmap done at Thu Jul 10 11:00:48 2025 -- 256 IP addresses (4 hosts up) scanned in 4.68 seconds

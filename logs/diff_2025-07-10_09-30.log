@@ -1,0 +1,33 @@
+3c3
+< Host is up (0.0097s latency).
+---
+> Host is up (0.013s latency).
+11c11
+< Host is up (0.011s latency).
+---
+> Host is up (0.016s latency).
+17c17
+< Host is up (0.0098s latency).
+---
+> Host is up (0.013s latency).
+24c24
+< Host is up (0.019s latency).
+---
+> Host is up (0.069s latency).
+30c30
+< Host is up (0.064s latency).
+---
+> Host is up (0.098s latency).
+36c36
+< Host is up (0.015s latency).
+---
+> Host is up (0.012s latency).
+42c42
+< Host is up (0.0000010s latency).
+---
+> Host is up (0.0000030s latency).
+47c47,48
+< # Nmap done at Thu Jul 10 09:30:11 2025 -- 256 IP addresses (7 hosts up) scanned in 9.77 seconds
+---
+> # Nmap done at Thu Jul 10 09:30:11 2025 -- 256 IP addresses (7 hosts up) scanned in 10.41 seconds
+> 

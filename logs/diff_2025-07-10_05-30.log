@@ -1,0 +1,35 @@
+2d1
+< 2.168.1.0/24
+4c3
+< Host is up (0.039s latency).
+---
+> Host is up (0.038s latency).
+12c11
+< Host is up (0.077s latency).
+---
+> Host is up (0.10s latency).
+18c17
+< Host is up (0.066s latency).
+---
+> Host is up (0.049s latency).
+25c24
+< Host is up (0.16s latency).
+---
+> Host is up (0.17s latency).
+31c30
+< Host is up (0.016s latency).
+---
+> Host is up (0.012s latency).
+37c36
+< Host is up (0.010s latency).
+---
+> Host is up (0.021s latency).
+43c42
+< Host is up (0.0000030s latency).
+---
+> Host is up (0.0000080s latency).
+48c47,48
+< # Nmap done at Thu Jul 10 05:30:13 2025 -- 256 IP addresses (7 hosts up) scanned in 11.52 seconds
+---
+> # Nmap done at Thu Jul 10 05:30:25 2025 -- 256 IP addresses (7 hosts up) scanned in 24.19 seconds
+> 11.52 seconds

@@ -1,0 +1,1144 @@
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 05:30 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.038s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.10s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.049s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.17s latency).
+All 100 scanned ports on 192.168.1.10 are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: B6:19:D8:86:51:21 (Unknown)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.012s latency).
+All 100 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: EC:C1:AB:56:B5:FF (Guangzhou Shiyuan Electronic Technology Company Limited)
+
+Nmap scan report for Faiz.bbrouter (192.168.1.16)
+Host is up (0.021s latency).
+All 100 scanned ports on Faiz.bbrouter (192.168.1.16) are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: 46:F1:23:3C:0E:5A (Unknown)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000080s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (7 hosts up) scanned in 24.19 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_05-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+1092 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_05-30.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_05-27.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.17
+
+🚫 Removed Hosts:
+192.168.1.0
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 06:30 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.0075s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.0074s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.0069s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.18s latency).
+All 100 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: EC:C1:AB:56:B5:FF (Guangzhou Shiyuan Electronic Technology Company Limited)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000080s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 11.54 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_06-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+1557 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_06-30.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_06-30.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.1
+192.168.1.11
+192.168.1.2
+192.168.1.3
+192.168.1.8
+
+🚫 Removed Hosts:
+
+
+🔐 New Open Ports:
+> 80/tcp  open  http 🌐 HTTP
+> 443/tcp open  https 🔒 HTTPS
+> 5000/tcp open  upnp
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 07:00 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.013s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.017s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.017s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.032s latency).
+All 100 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: EC:C1:AB:56:B5:FF (Guangzhou Shiyuan Electronic Technology Company Limited)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.000011s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 5.35 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_07-00.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+207 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_07-00.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_07-00.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.1
+192.168.1.11
+192.168.1.2
+192.168.1.3
+192.168.1.8
+
+🚫 Removed Hosts:
+
+
+🔐 New Open Ports:
+> 80/tcp  open  http 🌐 HTTP
+> 443/tcp open  https 🔒 HTTPS
+> 5000/tcp open  upnp
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 07:30 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.010s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.013s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.012s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.038s latency).
+All 100 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: EC:C1:AB:56:B5:FF (Guangzhou Shiyuan Electronic Technology Company Limited)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000060s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 4.95 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_07-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+454 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_07-30.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_07-30.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.1
+192.168.1.11
+192.168.1.2
+192.168.1.3
+192.168.1.8
+
+🚫 Removed Hosts:
+
+
+🔐 New Open Ports:
+> 80/tcp  open  http 🌐 HTTP
+> 443/tcp open  https 🔒 HTTPS
+> 5000/tcp open  upnp
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 08:00 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.0042s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.0042s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.0051s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000070s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 4.80 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_08-00.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+411 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_08-00.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_08-00.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.1
+192.168.1.2
+192.168.1.3
+192.168.1.8
+
+🚫 Removed Hosts:
+
+
+🔐 New Open Ports:
+> 80/tcp  open  http 🌐 HTTP
+> 443/tcp open  https 🔒 HTTPS
+> 5000/tcp open  upnp
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 08:30 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.0058s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.0057s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.0065s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.000010s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 4.67 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_08-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+112 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_08-30.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_08-30.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.1
+
+🚫 Removed Hosts:
+192.168.1.0
+192.168.1.1
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 09:30 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.013s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.016s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.013s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for M2006C3MI-POCOC3.bbrouter (192.168.1.6)
+Host is up (0.069s latency).
+All 100 scanned ports on M2006C3MI-POCOC3.bbrouter (192.168.1.6) are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: 6E:50:CF:B3:BB:1D (Unknown)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.098s latency).
+All 100 scanned ports on 192.168.1.10 are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: B6:19:D8:86:51:21 (Unknown)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.012s latency).
+All 100 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: EC:C1:AB:56:B5:FF (Guangzhou Shiyuan Electronic Technology Company Limited)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000030s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (7 hosts up) scanned in 10.41 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_09-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+1988 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_09-30.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_09-30.log
+===== SUMMARY =====
+🆕 New Hosts:
+
+
+🚫 Removed Hosts:
+
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 10:00 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.0051s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.0050s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.0056s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.42s latency).
+All 100 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: EC:C1:AB:56:B5:FF (Guangzhou Shiyuan Electronic Technology Company Limited)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000030s latency).
+All 100 scanned ports on kali.bbrouter (192.168.1.8) are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 21.93 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_10-00.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+1834 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_10-00.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_10-00.log
+===== SUMMARY =====
+🆕 New Hosts:
+
+
+🚫 Removed Hosts:
+
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 10:30 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.0096s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.012s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.012s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.018s latency).
+All 100 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: EC:C1:AB:56:B5:FF (Guangzhou Shiyuan Electronic Technology Company Limited)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000030s latency).
+All 100 scanned ports on kali.bbrouter (192.168.1.8) are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 5.78 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_10-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+2766 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_10-30.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_10-30.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.7
+
+🚫 Removed Hosts:
+192.168.1.0
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+[*] Calculating threat score...
+20 [SAFE]
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 11:00 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.0066s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.0069s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.0099s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.86s latency).
+All 100 scanned ports on 192.168.1.10 are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: B6:19:D8:86:51:21 (Unknown)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.000011s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 17.83 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_11-00.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+3784 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_11-00.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_11-00.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+
+🚫 Removed Hosts:
+192.168.1.0
+192.168.1.10
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+[*] Calculating threat score...
+10 [SAFE]
+[*] Evaluating email alert...
+[✓] Threat score (10) is safe. No email sent.
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 11:30 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.031s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.0078s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.0073s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000050s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 5.55 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_11-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+1103 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_11-30.pcapng
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_11-30.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.1
+192.168.1.2
+192.168.1.3
+192.168.1.8
+
+🚫 Removed Hosts:
+
+
+🔐 New Open Ports:
+> 80/tcp  open  http 🌐 HTTP
+> 443/tcp open  https 🔒 HTTPS
+> 5000/tcp open  upnp
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+[*] Calculating threat score...
+50 [MODERATE]
+[*] Evaluating email alert...
+[✓] Threat score (50) is safe. No email sent.
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 12:00 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.098s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.20s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.048s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.000011s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 18.69 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_12-00.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+1800 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_12-00.pcapng
+[*] Evaluating email alert...
+[!] High threat detected. Sending email alert...
+msmtp: unrecognized option '--subject=🚨 Kali Sentinel Alert (Score: 50)'
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_12-00.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.10
+192.168.1.16
+
+🚫 Removed Hosts:
+192.168.1.0
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+[*] Calculating threat score...
+30 [MODERATE]
+[*] Evaluating email alert...
+[✓] Threat score (30) is safe. No email sent.
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 12:30 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.0089s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.0066s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.027s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.000012s latency).
+All 100 scanned ports on kali.bbrouter (192.168.1.8) are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 5.41 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_12-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+298 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_12-30.pcapng
+[*] Evaluating email alert...
+[✓] Threat score (30) is safe. No email sent.
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_12-30.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.8
+
+🚫 Removed Hosts:
+192.168.1.0
+192.168.1.10
+192.168.1.16
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+< 5000/tcp open  upnp
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+[*] Calculating threat score...
+20 [SAFE]
+[*] Evaluating email alert...
+[✓] Threat score (20) is safe. No email sent.
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 13:00 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.010s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.011s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.0082s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000090s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 4.66 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_13-00.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+96 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_13-00.pcapng
+[*] Evaluating email alert...
+[✓] Threat score (30) is safe. No email sent.
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_13-00.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+
+🚫 Removed Hosts:
+192.168.1.0
+192.168.1.10
+192.168.1.7
+192.168.1.8
+
+🔐 New Open Ports:
+> 5000/tcp open  upnp
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+[*] Calculating threat score...
+10 [SAFE]
+[*] Evaluating email alert...
+[✓] Threat score (10) is safe. No email sent.
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 13:30 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.040s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.057s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.035s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.000010s latency).
+All 100 scanned ports on kali.bbrouter (192.168.1.8) are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 7.54 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_13-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+354 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_13-30.pcapng
+[*] Sending email to harmankhatri248@gmail.com...
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Launching web dashboard...
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_13-30.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.8
+
+🚫 Removed Hosts:
+192.168.1.0
+192.168.1.10
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+< 5000/tcp open  upnp
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+[*] Calculating threat score...
+20 [SAFE]
+[*] Evaluating email alert...
+[✓] Threat score (20) is safe. No email sent.
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 22:00 PDT
+Nmap scan report for RTK_GW.bbrouter (192.168.1.1)
+Host is up (0.0046s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: A8:E2:07:00:25:D9 (Goip Global Services Pvt.)
+
+Nmap scan report for Archer_C20.bbrouter (192.168.1.2)
+Host is up (0.0049s latency).
+All 100 scanned ports on Archer_C20.bbrouter (192.168.1.2) are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 98:25:4A:25:C7:F1 (TP-Link PTE.)
+
+Nmap scan report for DIR_615X_RT8196E.bbrouter (192.168.1.3)
+Host is up (0.0053s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+8081/tcp closed blackice-icecap
+MAC Address: E0:1C:FC:EF:3F:B1 (D-Link International)
+
+Nmap scan report for Gopal-s-M31.bbrouter (192.168.1.15)
+Host is up (0.0069s latency).
+All 100 scanned ports on Gopal-s-M31.bbrouter (192.168.1.15) are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: F6:97:2B:13:7B:2F (Unknown)
+
+Nmap scan report for kali.bbrouter (192.168.1.8)
+Host is up (0.0000070s latency).
+All 100 scanned ports on kali.bbrouter (192.168.1.8) are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 8.02 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_22-00.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+114 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_22-00.pcapng
+[*] Sending email to harmankhatri248@gmail.com...
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Launching web dashboard...
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_22-00.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+192.168.1.15
+192.168.1.8
+
+🚫 Removed Hosts:
+192.168.1.0
+192.168.1.16
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+< 5000/tcp open  upnp
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+[*] Calculating threat score...
+30 [MODERATE]
+[*] Evaluating email alert...
+[✓] Threat score (30) is safe. No email sent.
+/home/kali/Desktop/kali-sentinel/run_sentinel.sh: line 2: ./logs/cron_debug.log: No such file or directory
+[Kali Sentinel] Starting Threat Detection...
+[*] Running network scan module...
+[*] Scanning subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-10 23:30 PDT
+Nmap done: 256 IP addresses (0 hosts up) scanned in 253.72 seconds
+[*] Comparing with last scan...
+[+] Diff saved to: ./logs/diff_2025-07-10_23-30.log
+[*] Running packet capture module...
+[*] Starting packet capture on wlan0 for 60 seconds...
+Running as user "root" and group "root". This could be dangerous.
+Capturing on 'wlan0'
+183 packets captured
+[✓] Packet capture saved to: ./pcap/capture_2025-07-10_23-34.pcapng
+[*] Sending email to harmankhatri248@gmail.com...
+[✓] Sentinel run complete. Check logs and pcap directories.
+[*] Generating summary alert...
+[*] Analyzing: ./logs/diff_2025-07-10_23-30.log
+===== SUMMARY =====
+🆕 New Hosts:
+192.168.1.0
+
+🚫 Removed Hosts:
+192.168.1.0
+
+🔐 New Open Ports:
+
+
+🔒 Removed Ports:
+
+====================
+[*] Generating html report...
+[+] HTML report saved to: ./logs/summary_latest.html
+[*] Calculating threat score...
+10 [SAFE]
+[*] Evaluating email alert...
+[✓] Threat score (10) is safe. No email sent.

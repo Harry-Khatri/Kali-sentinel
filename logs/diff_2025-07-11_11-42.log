@@ -1,0 +1,32 @@
+1c1
+< # Nmap 7.95 scan initiated Fri Jul 11 11:30:01 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-11_11-30.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Fri Jul 11 11:42:46 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-11_11-42.txt 192.168.1.0/24
+3c3
+< Host is up (0.0074s latency).
+---
+> Host is up (0.0075s latency).
+11c11
+< Host is up (0.0087s latency).
+---
+> Host is up (0.0083s latency).
+17c17
+< Host is up (0.0085s latency).
+---
+> Host is up (0.012s latency).
+23,27c23,27
+< Nmap scan report for Faiz.bbrouter (192.168.1.16)
+< Host is up (0.11s latency).
+< All 100 scanned ports on Faiz.bbrouter (192.168.1.16) are in ignored states.
+< Not shown: 100 closed tcp ports (reset)
+< MAC Address: 46:F1:23:3C:0E:5A (Unknown)
+---
+> Nmap scan report for 192.168.1.10
+> Host is up (0.069s latency).
+> All 100 scanned ports on 192.168.1.10 are in ignored states.
+> Not shown: 100 filtered tcp ports (no-response)
+> MAC Address: B6:19:D8:86:51:21 (Unknown)
+35c35
+< # Nmap done at Fri Jul 11 11:30:53 2025 -- 256 IP addresses (5 hosts up) scanned in 52.68 seconds
+---
+> # Nmap done at Fri Jul 11 11:43:31 2025 -- 256 IP addresses (5 hosts up) scanned in 44.67 seconds

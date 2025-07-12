@@ -1,0 +1,71 @@
+1c1,31
+< # Nmap 7.95 scan initiated Thu Jul 10 05:30:01 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-10_05-30.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Thu Jul 10 05:27:33 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-10_05-27.txt 192.168.1.0/24
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+> RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+3c33
+< Host is up (0.038s latency).
+---
+> Host is up (0.061s latency).
+11c41
+< Host is up (0.10s latency).
+---
+> Host is up (0.085s latency).
+17c47
+< Host is up (0.049s latency).
+---
+> Host is up (0.055s latency).
+24c54
+< Host is up (0.17s latency).
+---
+> Host is up (0.23s latency).
+30c60
+< Host is up (0.012s latency).
+---
+> Host is up (0.032s latency).
+36c66
+< Host is up (0.021s latency).
+---
+> Host is up (0.012s latency).
+40a71,77
+> Nmap scan report for 192.168.1.17
+> Host is up (0.11s latency).
+> Not shown: 99 filtered tcp ports (no-response)
+> PORT  STATE  SERVICE
+> 9/tcp closed discard
+> MAC Address: 52:03:B7:9E:19:A3 (Unknown)
+> 
+47,48c84
+< # Nmap done at Thu Jul 10 05:30:25 2025 -- 256 IP addresses (7 hosts up) scanned in 24.19 seconds
+< 11.52 seconds
+---
+> # Nmap done at Thu Jul 10 05:30:31 2025 -- 256 IP addresses (8 hosts up) scanned in 177.87 seconds

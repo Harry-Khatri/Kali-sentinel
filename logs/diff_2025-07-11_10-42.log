@@ -1,0 +1,31 @@
+1c1
+< # Nmap 7.95 scan initiated Fri Jul 11 10:30:01 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-11_10-30.txt 192.168.1.0/24
+---
+> # Nmap 7.95 scan initiated Fri Jul 11 10:42:41 2025 as: /usr/lib/nmap/nmap -T4 -F -oN ./scan/scan_2025-07-11_10-42.txt 192.168.1.0/24
+3c3
+< Host is up (0.0035s latency).
+---
+> Host is up (0.017s latency).
+11c11
+< Host is up (0.0033s latency).
+---
+> Host is up (0.0094s latency).
+17c17
+< Host is up (0.0040s latency).
+---
+> Host is up (0.012s latency).
+22a23,28
+> Nmap scan report for Gopal-s-M31.bbrouter (192.168.1.15)
+> Host is up (0.018s latency).
+> All 100 scanned ports on Gopal-s-M31.bbrouter (192.168.1.15) are in ignored states.
+> Not shown: 100 closed tcp ports (reset)
+> MAC Address: F6:97:2B:13:7B:2F (Unknown)
+> 
+24c30
+< Host is up (0.0000050s latency).
+---
+> Host is up (0.000010s latency).
+29c35
+< # Nmap done at Fri Jul 11 10:30:05 2025 -- 256 IP addresses (4 hosts up) scanned in 4.57 seconds
+---
+> # Nmap done at Fri Jul 11 10:42:47 2025 -- 256 IP addresses (5 hosts up) scanned in 6.66 seconds
