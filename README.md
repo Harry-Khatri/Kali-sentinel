@@ -14,3 +14,4 @@
 
 2. Run all modules at once:
     ./scripts/sentinel.sh
+# Kali-sentinel
