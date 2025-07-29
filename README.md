@@ -14,4 +14,11 @@
 
 2. Run all modules at once:
     ./scripts/sentinel.sh
+
+3. if you want to run the full script with dashboard then you have to type the command:
+   python3 ./scripts/dashboard.py
+
+   [Note: this dashboard is made under FLASK so when you are going to kill the process you have to write the command for it(sudo pkill -f dashboard) 
+
 # Kali-sentinel
+
