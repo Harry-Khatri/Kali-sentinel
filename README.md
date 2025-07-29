@@ -3,10 +3,19 @@
 **Kali Sentinel** is a lightweight, script-based threat detection and response system using tools like Nmap and Wireshark.
 
 ## Features
-- Subnet scanning with Nmap
-- Differential analysis of network changes
-- Packet capture with TShark
-- Logging and alert-ready structure
+✅ Active Host & Port Scanning – Automated Nmap scans detect open ports, services, and live hosts.
+
+🧠 Packet Capture & Logging – Tshark continuously logs packet-level data for analysis and investigation.
+
+📨 Real-time Email Alerts – Sends alerts based on customizable rules (e.g., presence of specific IPs, open ports, anomalies).
+
+📊 Flask-based Dashboard – Simple web interface to view logs, scan results, and system status.
+
+🕒 Cron Integration – Schedule periodic scans and logging tasks for full automation.
+
+📁 Log Management – Stores packet captures and scan reports for forensic investigation.
+
+
 
 ## Usage
 1. Make scripts executable:
